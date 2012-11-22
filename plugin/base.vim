@@ -5,7 +5,6 @@
 " Version:      0.1
 
 set nocompatible
-syntax on
 
 set backspace=indent,eol,start
 set number " Show line numbers
@@ -49,7 +48,7 @@ let mapleader = "\\"
 nmap . .`[
 
 " Show whitespace *************************************************************
-set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set listchars=tab:>\ ,trail:…,extends:>,precedes:<,nbsp:+
 set list
 
 " Highlight long rows **************************************************
