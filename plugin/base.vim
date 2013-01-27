@@ -51,6 +51,9 @@ nmap . .`[
 set listchars=tab:>\ ,trail:…,extends:>,precedes:<,nbsp:+
 set list
 
+" Not quite so many listchars for go ******************************************
+autocmd filetype go set nolist
+
 " Highlight long rows **************************************************
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
 match OverLength /\%81v./
