@@ -1,15 +1,15 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
-set rtp+=/usr/local/Cellar/go/1.0.3/misc/vim
+set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#rc()
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'ruby.vim'
-Bundle 'trotter/vim-trotter'
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'trotter/vim-trotter'
+Plugin 'fatih/vim-go'
+
+call vundle#end()
 
 filetype plugin indent on
 syntax on
