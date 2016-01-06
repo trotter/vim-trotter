@@ -53,6 +53,10 @@ set list
 
 " Not quite so many listchars for go ******************************************
 autocmd filetype go set nolist
+autocmd filetype go set noexpandtab
+autocmd filetype go set softtabstop=2
+autocmd filetype go set shiftwidth=2
+autocmd filetype go set tabstop=2
 
 " Highlight long rows **************************************************
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
